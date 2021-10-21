@@ -84,10 +84,10 @@ for _ in range(3):
     main()
 requests.get('https://sc.ftqq.com/SCT65547TPBQlXuJoG2Mk7AZ0Y1eKmWl3.send?title=QQ&desp=E5续期调用API权限10次运行完毕')
 
-requests.get('http://www.pushplus.plus/send?{
+requests.get('http://www.pushplus.plus/send)
+   {
     "token":"{905f9ddf70fd4c08b11ab2436c04632c},
     "title":"标题",
     "content":"消息内容",
     "topic":"test"
-}
-)
+    }
