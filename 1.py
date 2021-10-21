@@ -7,11 +7,6 @@ import json,sys,time,os,random,linecache,socket,requests
 #mail:  Mail.Read、Mail.ReadWrite、MailboxSettings.Read、MailboxSettings.ReadWrite
 #注册后一定要再点代表xxx授予管理员同意,否则outlook api无法调用
 
-
-
-
-
-
 path=sys.path[0]+r'/1.txt'
 num1 = 0
 
@@ -84,10 +79,4 @@ for _ in range(3):
     main()
 requests.get('https://sc.ftqq.com/SCT65547TPBQlXuJoG2Mk7AZ0Y1eKmWl3.send?title=QQ&desp=E5续期调用API权限10次运行完毕')
 
-requests.get('http://www.pushplus.plus/send
-   {
-    "token":"{905f9ddf70fd4c08b11ab2436c04632c},
-    "title":"标题",
-    "content":"消息内容",
-    "topic":"test"
-    }
+requests.get('http://www.pushplus.plus/send?token=905f9ddf70fd4c08b11ab2436c04632c&title=QQ&content=E5续期调用API权限10次运行完毕&template=html&topic=XXX')
