@@ -77,6 +77,6 @@ def main():
         pass
 for _ in range(3):
     main()
-requests.get('https://sc.ftqq.com/SCT65547TPBQlXuJoG2Mk7AZ0Y1eKmWl3.send?title=QQ&desp=E5续期调用API权限10次运行完毕')
+requests.get('https://sc.ftqq.com/SCT89749TUALbuyC7wr58Oh3Y6dLOeLjF.send?title=QQ&desp=E5续期调用API权限10次运行完毕')
 
-requests.get('http://www.pushplus.plus/send?token=0dacd84ff358406fa3b69f8fab31776f&title=QQ&content=E5续期调用API权限10次运行完毕')
+requests.get('http://www.pushplus.plus/send?token=d36368b7540a4d86aad9a1217c041cf7&title=QQ&content=E5续期调用API权限10次运行完毕')
